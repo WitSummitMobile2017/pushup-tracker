@@ -12,6 +12,10 @@
 		C006E4CB1FB2C4A30088F2F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C006E4C91FB2C4A30088F2F0 /* Main.storyboard */; };
 		C006E4CD1FB2C4A30088F2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C006E4CC1FB2C4A30088F2F0 /* Assets.xcassets */; };
 		C006E4D01FB2C4A30088F2F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C006E4CE1FB2C4A30088F2F0 /* LaunchScreen.storyboard */; };
+		C006E4D81FB2C6E50088F2F0 /* TrackPushupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006E4D71FB2C6E50088F2F0 /* TrackPushupsViewController.swift */; };
+		C006E4DA1FB2C7740088F2F0 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006E4D91FB2C7740088F2F0 /* Persistance.swift */; };
+		C006E4DC1FB2C93C0088F2F0 /* PushUpHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006E4DB1FB2C93C0088F2F0 /* PushUpHistoryTableViewController.swift */; };
+		C006E4DF1FB360AA0088F2F0 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C006E4DE1FB360AA0088F2F0 /* Speaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C006E4CC1FB2C4A30088F2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C006E4CF1FB2C4A30088F2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C006E4D11FB2C4A30088F2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C006E4D71FB2C6E50088F2F0 /* TrackPushupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPushupsViewController.swift; sourceTree = "<group>"; };
+		C006E4D91FB2C7740088F2F0 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		C006E4DB1FB2C93C0088F2F0 /* PushUpHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUpHistoryTableViewController.swift; sourceTree = "<group>"; };
+		C006E4DE1FB360AA0088F2F0 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		C006E4C41FB2C4A30088F2F0 /* pushup-basic */ = {
 			isa = PBXGroup;
 			children = (
+				C006E4D11FB2C4A30088F2F0 /* Info.plist */,
 				C006E4C51FB2C4A30088F2F0 /* AppDelegate.swift */,
-				C006E4C71FB2C4A30088F2F0 /* ViewController.swift */,
-				C006E4C91FB2C4A30088F2F0 /* Main.storyboard */,
 				C006E4CC1FB2C4A30088F2F0 /* Assets.xcassets */,
 				C006E4CE1FB2C4A30088F2F0 /* LaunchScreen.storyboard */,
-				C006E4D11FB2C4A30088F2F0 /* Info.plist */,
+				C006E4C91FB2C4A30088F2F0 /* Main.storyboard */,
+				C006E4DD1FB2CAF90088F2F0 /* view controllers */,
+				C006E4D91FB2C7740088F2F0 /* Persistance.swift */,
+				C006E4DE1FB360AA0088F2F0 /* Speaker.swift */,
 			);
 			path = "pushup-basic";
+			sourceTree = "<group>";
+		};
+		C006E4DD1FB2CAF90088F2F0 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C006E4C71FB2C4A30088F2F0 /* ViewController.swift */,
+				C006E4D71FB2C6E50088F2F0 /* TrackPushupsViewController.swift */,
+				C006E4DB1FB2C93C0088F2F0 /* PushUpHistoryTableViewController.swift */,
+			);
+			path = "view controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C006E4C81FB2C4A30088F2F0 /* ViewController.swift in Sources */,
+				C006E4DA1FB2C7740088F2F0 /* Persistance.swift in Sources */,
+				C006E4DC1FB2C93C0088F2F0 /* PushUpHistoryTableViewController.swift in Sources */,
+				C006E4DF1FB360AA0088F2F0 /* Speaker.swift in Sources */,
+				C006E4D81FB2C6E50088F2F0 /* TrackPushupsViewController.swift in Sources */,
 				C006E4C61FB2C4A30088F2F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
